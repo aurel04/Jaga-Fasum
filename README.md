@@ -41,11 +41,11 @@ cp .env.example .env
 php artisan key:generate
 
 # 5. Set up database
-# - Create a database in MySQL
-# - Update DB settings in `.env`:
-#   DB_DATABASE=jogofasum_db
-#   DB_USERNAME=your_db_username
-#   DB_PASSWORD=your_db_password
+- Create a database in MySQL
+- Update DB settings in `.env`:
+DB_DATABASE=jogofasum_db
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
 
 # 6. Run migrations and seeders
 php artisan migrate --seed
